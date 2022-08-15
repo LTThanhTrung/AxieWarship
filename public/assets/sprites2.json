@@ -1,0 +1,42 @@
+{
+	"frames": {
+
+		"field.png": {
+			"frame": {
+				"x": 40,
+				"y": 66,
+				"w": 1020,
+				"h": 1020
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 1020,
+				"h": 1020
+			},
+			"sourceSize": {
+				"w": 1020,
+				"h": 1020
+			},
+			"pivot": {
+				"x": 0.5,
+				"y": 0.5
+			}
+		}
+		
+	},
+	"meta": {
+		"app": "http://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"image": "sprites2.png",
+		"format": "RGBA8888",
+		"size": {
+			"w": 231,
+			"h": 387
+		},
+		"scale": "1",
+		"smartupdate": "$TexturePacker:SmartUpdate:937ba18035ba5461ce7920b062417bb5:2d0737c698fe4fec5494331547da16b4:1eabdf11f75e3a4fe3147baf7b5be24b$"
+	}
+}
