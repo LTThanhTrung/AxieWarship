@@ -9,6 +9,8 @@ import {
   Grid,
   theme,
   Skeleton,
+  Button,
+  useColorMode
 } from "@chakra-ui/react"
 import * as PIXI from "pixi.js"
 
@@ -19,6 +21,7 @@ import {Ship, ShipOrient, Game, Field, Cell, ShipPosition, Player} from './model
 import { Figure } from './component/axie';
 import { AxieDirection } from './component/types';
 import { Color } from 'pixi-spine';
+import { ColorModeSwitcher } from './ColorModeSwitcher';
 
 function toggle_orient(orient?: ShipOrient): ShipOrient {
 	switch(orient) {
@@ -669,8 +672,10 @@ export default function App() {
 	}, 2000);
   }, [])
 
+
   return (
     <ChakraProvider theme={theme}>
+		  <ColorModeSwitcher aria-label='123'></ColorModeSwitcher>
       <div ref={ref} />
     </ChakraProvider>
   )
