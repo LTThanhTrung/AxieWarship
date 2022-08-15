@@ -13,4 +13,5 @@ Runs the app in the development mode.<br /> Open
 ## Project Information
 
 English : https://software-7.gitbook.io/axie-warship/
+
 Vietnamese : https://software-7.gitbook.io/axie-warship/v/tieng-vie-t/
